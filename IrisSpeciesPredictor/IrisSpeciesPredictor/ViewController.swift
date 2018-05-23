@@ -55,6 +55,7 @@ class ViewController: UIViewController {
         }
         
         priceLabel.text = output.Species
+        print(output.SpeciesProbability)
     }
 }
 
